@@ -1,0 +1,29 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 40%;
+  border-radius: 4px;
+  background: grey;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+}
+
+.choice-prefix {
+  padding: 2rem 2.5rem;
+  color: blue;
+}
+
+.choice-text {
+  padding: 2rem;
+  width: 100%;
+}
+
+.correct {
+  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb (41,232, 111) 100%);
+}
+
+.incorrect {
+  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb (41,232, 111) 100%);
+}
