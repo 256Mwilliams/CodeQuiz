@@ -6,3 +6,19 @@
   background-color: blueviolet;
   color: aliceblue;
 }
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.subject {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  display:block;
+}
